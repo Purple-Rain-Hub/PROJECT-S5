@@ -309,6 +309,14 @@ h1{
     background-color: white;
 }
 
-.green{
+#green{
     background-color: green;
+    padding: 3%;
+    border-radius: 2em;
+    width: 30%;
+    text-align: center;
+}
+
+#green a{
+    color: white;
 }

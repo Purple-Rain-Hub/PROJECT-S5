@@ -6,8 +6,10 @@ window.addEventListener("scroll", scroll);
 function scroll() {
     if(window.scrollY > 350){
         pageHeader.classList.add("white");
-        getStarted.classList.add("green");
+        getStarted.id = "green";
     }else if (window.scrollY < 350){
         pageHeader.classList.remove("white");
+        getStarted.removeAttribute("id")
+        getStarted.id = "getStarted"
     }
 }
