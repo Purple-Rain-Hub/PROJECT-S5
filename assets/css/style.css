@@ -26,6 +26,8 @@ header{
     top: 0%;
     z-index: 1000;
     border-bottom: 1px solid #191919;
+    margin-top: 0%;
+
 }
 
 nav{
@@ -134,9 +136,9 @@ h1{
     }
     #emme{
         position: absolute;
-        right: -12em;
-        top: -11.5em;
-        width: 28em;
+        right: 0em;
+        top: -8.5em;
+        width: 20em;
     }
     #hero h2{
         margin-bottom: 10%;
