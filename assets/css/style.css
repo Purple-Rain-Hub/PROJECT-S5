@@ -253,6 +253,8 @@ h1{
     display: flex;
     flex-direction: column;
     width: 30%;
+    position: sticky;
+    top: 10%;
 }
 
 
@@ -301,3 +303,12 @@ h1{
     color: #73778F;
 }
 
+/* classe per header bianco e pulsante verde */
+
+.white{
+    background-color: white;
+}
+
+.green{
+    background-color: green;
+}
